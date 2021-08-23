@@ -49,6 +49,14 @@
             "Name",
             "Arn"
           ]
+        },
+        {
+          "category": "function",
+          "resourceName": "amplifyappabd7347e",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
     }
