@@ -12,9 +12,6 @@
       "AmplifyAppId": "d2y1g3e4su44ak"
     },
     "categories": {
-      "auth": {
-        "amplifyapp14abfb70": {}
-      },
       "function": {
         "amplifyappabd7347e": {
           "deploymentBucketName": "amplify-amplifyapp-staging-82531-deployment",
