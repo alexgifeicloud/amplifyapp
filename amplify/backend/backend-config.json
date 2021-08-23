@@ -37,6 +37,20 @@
           ]
         }
       ]
+    },
+    "notesapprestapi": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "amplifyapp6c4a4f36",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   },
   "storage": {
@@ -47,6 +61,11 @@
   },
   "function": {
     "amplifyappabd7347e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "amplifyapp6c4a4f36": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
